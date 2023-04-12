@@ -1,0 +1,86 @@
+.wrap {
+  margin: 5% auto;
+}
+
+@page {
+  size: A4 portrait;
+  margin: 0mm;
+}
+
+.page{
+  background: white;
+	width: 210mm;
+	height: 297mm;
+	box-sizing: border-box;
+	padding: 10mm;
+  page-break-after: always;
+  margin: 0 auto;
+}
+
+.page:last-child{
+	page-break-after: auto;
+}
+
+.profile-body {
+  background: rgb(204,204,204);
+  font-size: 80%;
+}
+
+.profile-row {
+  height: 30px;
+  font-size: 8px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+
+td {
+  padding: 0 10px;
+}
+
+.bd-t-s {
+  border-top: 1px solid;
+}
+
+.bd-r-s {
+  border-right: 1px solid;
+}
+
+.bd-b-s {
+  border-bottom: 1px solid;
+}
+
+.bd-l-s {
+  border-left: 1px solid;
+}
+
+.bd-t-dt {
+  border-top: 1px dotted;
+}
+
+.bd-r-dt {
+  border-right: 1px dotted;
+}
+
+.bd-b-dt {
+  border-bottom: 1px dotted;
+}
+
+.bd-l-dt {
+  border-left: 1px dotted;
+}
+
+.bd-t-db {
+  border-top: 4px double;
+}
+
+.center {
+  text-align: center;
+}
+
+.blue {
+  background-color: #C2D5EC;
+}
